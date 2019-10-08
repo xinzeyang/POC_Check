@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace POC集成验证
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void Btn_CheckExp_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

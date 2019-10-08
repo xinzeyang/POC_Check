@@ -16,7 +16,8 @@ namespace POC集成验证
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
+            //Application.Run(new AddIns());
         }
     }
 }
